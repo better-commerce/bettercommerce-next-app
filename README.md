@@ -1,23 +1,19 @@
-# Next Clean Starter
+# better-next-app
 
-My go-to project starter template for Next.js apps. Inspired by [my portfolio](https://ayushsaini.com)
+Project starter for Next.js app enabled with Better Auth.
 
-## 👓 Preview
-
-Preview it on [stackblitz](https://stackblitz.com/github/AyushSaini00/next-clean-starter) without installing anything locally.
-
-## 🚀 Getting Started
+## Getting Started
 
 First, run the following command to create a new project:
 
 ```bash
-npx create-next-app my-app -e https://github.com/AyushSaini00/next-clean-starter
+npx create-next-app my-app -e https://github.com/TeknoZest/better-next-app
 ```
 
 or if you're using yarn
 
 ```bash
-yarn create next-app my-app -e https://github.com/AyushSaini00/next-clean-starter
+yarn create next-app my-app -e https://github.com/TeknoZest/better-next-app
 ```
 
 After the installation of the project, navigate to the project directory and run the following command to spin up the development server
@@ -34,19 +30,9 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## ✨ Features
+## Features
 
-- Next.js / Sass
-- Prebuild basic components like Layout, Navbar, and Footer.
-- A CustomLink component which handles both internal & external links
-- Basic CSS reset
-- Default responsive media queries for tablet, laptop and desktop breakpoints
-- Styles structure orgainzed
-- Prettier as dev dependency
-
-## Learn More
-
-To learn more about Next.js and Sass, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [SASS guide](https://sass-lang.com/guide) - learn about SASS
+- Next.js / TailwindCss
+- Organized structure for styles, components, pages, services, context & state management
+- In-built components like Layout, Nav (left-navigation), Header, and Footer
+- Extends BetterAuth feature for authentication
