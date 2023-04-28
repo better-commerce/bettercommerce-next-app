@@ -1,0 +1,206 @@
+.content_type {
+   background: url('/icons/sprite-v3.png') no-repeat 0 0;
+   width: 500px;
+   height: 500px;
+   display: inline-block !important;
+   position: relative !important;
+   top: 0px;
+}
+
+.icon_Boolean {
+   background-position: -21px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Text {
+   background-position: -71px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Number {
+   background-position: -371px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Rich,
+.icon_RichText {
+   background-position: -421px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+
+.icon_Email {
+   background-position: -121px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Enumeration {
+   background-position: -71px -218px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Date {
+   background-position: -171px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Media,
+.icon_Image {
+   background-position: -321px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Relation {
+   background-position: -221px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Component {
+   background-position: -271px -168px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Dynamic {
+   background-position: -21px -218px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon_Link {
+   background-position: -21px -218px;
+   width: 34px;
+   height: 34px;
+}
+
+.icon-page-section {
+   background: url('/icons/sprite-page-module-section-v5.svg') no-repeat 0 0;
+   width: 500px;
+   height: 500px;
+   display: inline-block !important;
+   position: relative !important;
+   top: 0px;
+   margin-right: 10px;
+}
+
+.icon-richtext {
+   background-position: -261px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-asset {
+   background-position: -201px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-text {
+   background-position: -51px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-entry {
+   background-position: -141px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+
+.icon-component {
+   background-position: -171px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-boolean {
+   background-position: -21px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-product,
+.icon-brand {
+   background-position: -381px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-category {
+   background-position: -351px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-image {
+   background-position: -201px -168px;
+   width: 20px;
+   height: 20px;
+   top: 6px;
+}
+
+.icon-email {
+   background-position: -81px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-enumeration {
+   background-position: -231px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-number {
+   background-position: -231px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-link {
+   background-position: -321px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+
+.icon-undefined {
+   background-position: -51px -168px;
+   width: 20px;
+   height: 20px;
+   top: 5px;
+}
+.icon-relation{
+   background-position: -141px -168px;
+	width: 20px;
+	height: 20px;
+   top: 5px;
+}
+
+.icon-date{
+   background-position: -420px -168px;
+	width: 20px;
+	height: 20px;
+   top: 5px;
+}
