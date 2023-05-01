@@ -2,6 +2,16 @@
 
 const nextConfig = {
     // reactStrictMode: true,
+    productionBrowserSourceMaps: true,
+    images: {
+        domains: [
+        "devocxstorage.blob.core.windows.net",
+        "devocxblob.blob.core.windows.net",
+        "liveocxstorage.blob.core.windows.net",
+        "liveocxcdn.azureedge.net",
+        "liveocx.imgix.net"
+        ],
+    },
     env: {
       BASE_URL: process.env.BASE_URL,
       AUTH_BASE_URL: process.env.AUTH_BASE_URL,
