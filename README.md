@@ -32,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Features
 
-- Next.js / TailwindCss
+- Next.js 13.x.x, React 18.x.x, RTK, Tailwind CSS
 - Organized structure for styles, components, pages, services, context & state management
 - In-built components like Layout, Nav (left-navigation), Header, and Footer
 - Extends BetterAuth feature for authentication
