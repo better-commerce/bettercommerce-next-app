@@ -32,6 +32,13 @@ export default function DataList() {
     () => ({ width: '100%', height: '100%', margin: '15px 25px' }),
     []
   );
+  const [queryParams, setQueryParams] = useState({
+    rootCat: '',
+    catId: '',
+    page: 1,
+    pageSize: 20,
+    searchQuery: ''
+  });
   const fetchSubCategories = (name) => {
     setSubCategories([{ name: 'Loading...' }]);
     setRootCategory(name);
@@ -41,16 +48,6 @@ export default function DataList() {
       setSubCategories([]);
       return;
     }
-
-    getSubCategories(name.toLowerCase()).then((values) => {
-      if (!values?.error) {
-        // const newCat = _.sortBy(values?.data.result, (item) => item.name.toLowerCase());
-        setSubCategories(values?.data?.result);
-      } else {
-        setSubCategories([]);
-        console.log(values?.error);
-      }
-    });
   };
   const gridStyle = useMemo(() => ({ height: '100%', width: '100%' }), []);
   const toggleCategory = () => {
@@ -64,6 +61,15 @@ export default function DataList() {
   };
   const toggleSubCategoryBack = () => {
     setIsSubCollepse(false);
+  };
+  const handleResetQueryParams = () => {
+    setQueryParams({
+      rootCat: '',
+      catId: '',
+      page: 1,
+      pageSize: 20,
+      searchQuery: ''
+    });
   };
   return (
     <>
@@ -307,7 +313,10 @@ export default function DataList() {
                 : `h-100 table-grid-container`
             }
           >
-            <div style={gridStyle} className="ag-theme-alpine w-full h-full md:h-[94%] 2xl:h-[97%]">
+            <div
+              style={gridStyle}
+              className="ag-theme-alpine w-full h-full md:h-[94%] 2xl:h-[97%]"
+            >
               <AgGridReact
                 rowData={rowData}
                 columnDefs={columnDefs}
