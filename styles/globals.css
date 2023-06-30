@@ -1673,3 +1673,15 @@ input[disabled] {
   width: 6px;
   border-radius: 4px;
 }
+
+.form-container {
+  max-width: calc(100% - 250px);
+  margin: 0 auto !important;
+}
+
+@media screen and (max-width: 1580px) {
+  .form-container {
+    max-width: calc(100% - 80px);
+    margin: 0 auto !important;
+  }
+}

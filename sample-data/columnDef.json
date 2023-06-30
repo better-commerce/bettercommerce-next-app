@@ -1,0 +1,13 @@
+{
+  "ColumnDef": [
+    { "field": "name" },
+    { "field": "price" },
+    { "field": "sellprice" },
+    { "field": "listprice" },
+    { "field": "basicInformation" },
+    { "field": "media" },
+    { "field": "category" },
+    { "field": "brand" },
+    { "field": "channel" }
+  ]
+}

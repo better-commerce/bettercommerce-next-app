@@ -19,6 +19,11 @@ import { decodeToken, isValidToken } from "@utils/token-util";
 import { resetUser } from "redux/auth";
 import { getLoginUrl, getLogoutUrl } from "@utils/app-util";
 import { stringToBoolean } from "@utils/parse-util";
+import { LicenseManager } from "ag-grid-enterprise";
+import { decrypt } from "@utils/cipher";
+
+// Set Ag grid license
+//LicenseManager.setLicenseKey(decrypt(process.env.AG_GRID_LICENSE_KEY));
 
 const MyApp = memo(({ Component, pageProps }) => {
   const { tokenOrgId } = pageProps;

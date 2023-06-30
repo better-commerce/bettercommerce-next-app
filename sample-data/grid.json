@@ -1,0 +1,92 @@
+{
+  "Data": [
+    {
+      "name": "Dewalt Test Product",
+      "price": 2000,
+      "sellprice": 35000,
+      "listprice": 45000,
+      "basicInformation": "Lorem Ipsome",
+      "media": "Celica",
+      "category": "Tools",
+      "brand": "DeWalt",
+      "channel": "Web"
+    },
+    {
+      "name": "Matika Test Product",
+      "price": 2000,
+      "sellprice": 35000,
+      "listprice": 45000,
+      "basicInformation": "Lorem Ipsome",
+      "media": "Celica",
+      "category": "Tools",
+      "brand": "DeWalt",
+      "channel": "Web"
+    },
+    {
+      "name": "Tools Test Product",
+      "price": 2000,
+      "sellprice": 35000,
+      "listprice": 45000,
+      "basicInformation": "Lorem Ipsome",
+      "media": "Celica",
+      "category": "Tools",
+      "brand": "DeWalt",
+      "channel": "Web"
+    },
+    {
+      "name": "Doors Test Product",
+      "price": 2000,
+      "sellprice": 35000,
+      "listprice": 45000,
+      "basicInformation": "Lorem Ipsome",
+      "media": "Celica",
+      "category": "Tools",
+      "brand": "DeWalt",
+      "channel": "Web"
+    },
+    {
+      "name": "Bosch Test Product",
+      "price": 2000,
+      "sellprice": 35000,
+      "listprice": 45000,
+      "basicInformation": "Lorem Ipsome",
+      "media": "Celica",
+      "category": "Tools",
+      "brand": "DeWalt",
+      "channel": "Web"
+    },
+    {
+      "name": "Doors Test Product",
+      "price": 2000,
+      "sellprice": 35000,
+      "listprice": 45000,
+      "basicInformation": "Lorem Ipsome",
+      "media": "Celica",
+      "category": "Tools",
+      "brand": "DeWalt",
+      "channel": "Web"
+    },
+    {
+      "name": "Dewalt Test Product",
+      "price": 2000,
+      "sellprice": 35000,
+      "listprice": 45000,
+      "basicInformation": "Lorem Ipsome",
+      "media": "Celica",
+      "category": "Tools",
+      "brand": "DeWalt",
+      "channel": "Web"
+    },
+    {
+      "name": "Doors Test Product",
+      "price": 2000,
+      "sellprice": 35000,
+      "listprice": 45000,
+      "basicInformation": "Lorem Ipsome",
+      "media": "Celica",
+      "category": "Tools",
+      "brand": "DeWalt",
+      "channel": "Web"
+    }
+  ]
+}

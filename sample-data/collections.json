@@ -1,0 +1,54 @@
+{
+  "parentCollection": [
+    {
+      "name": "Products",
+      "id": 1
+    },
+    {
+      "name": "Category",
+      "id": 2
+    },
+    {
+      "name": "Collections",
+      "id": 3
+    },
+    {
+      "name": "Brands",
+      "id": 4
+    },
+    {
+      "name": "Tags",
+      "id": 5
+    },
+    {
+      "name": "Channels",
+      "id": 6
+    },
+    {
+      "name": "Status",
+      "id": 7
+    }
+  ],
+  "childCollection": [
+    {
+      "name": "Dewalt Test Product",
+      "id": 1
+    },
+    {
+      "name": "Matika Test Product",
+      "id": 2
+    },
+    {
+      "name": "Tools Test Product",
+      "id": 3
+    },
+    {
+      "name": "Doors Test Product",
+      "id": 4
+    },
+    {
+      "name": "Bosch Test Product",
+      "id": 5
+    }
+  ]
+}

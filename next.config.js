@@ -27,6 +27,7 @@ const nextConfig = {
       EDIT_PAGE_AUTO_SAVE_INTERVAL_IN_SECS: process.env.EDIT_PAGE_AUTO_SAVE_INTERVAL_IN_SECS,
       CIPHER_ENCRYPTION_KEY: process.env.CIPHER_ENCRYPTION_KEY,
       ENABLE_ALERT_LOG: process.env.ENABLE_ALERT_LOG,
+      AG_GRID_LICENSE_KEY: process.env.AG_GRID_LICENSE_KEY,
     },
   }
   
