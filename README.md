@@ -7,13 +7,13 @@ Project starter for Next.js app enabled with Better Auth.
 First, run the following command to create a new project:
 
 ```bash
-npx create-next-app my-app -e https://github.com/TeknoZest/better-next-app
+npx create-next-app my-app -e https://github.com/better-commerce/bettercommerce-next-app
 ```
 
 or if you're using yarn
 
 ```bash
-yarn create next-app my-app -e https://github.com/TeknoZest/better-next-app
+yarn create next-app my-app -e https://github.com/better-commerce/bettercommerce-next-app
 ```
 
 After the installation of the project, navigate to the project directory and run the following command to spin up the development server
