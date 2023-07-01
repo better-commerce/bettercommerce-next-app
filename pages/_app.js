@@ -23,7 +23,7 @@ import { LicenseManager } from "ag-grid-enterprise";
 import { decrypt } from "@utils/cipher";
 
 // Set Ag grid license
-//LicenseManager.setLicenseKey(decrypt(process.env.AG_GRID_LICENSE_KEY));
+LicenseManager.setLicenseKey(decrypt(process.env.AG_GRID_LICENSE_KEY));
 
 const MyApp = memo(({ Component, pageProps }) => {
   const { tokenOrgId } = pageProps;
