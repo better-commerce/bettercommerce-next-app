@@ -28,7 +28,7 @@
     "js-cookie": "^3.0.1",
     "jwt-decode": "^3.1.2",
     "lodash": "^4.17.21",
-    "next": "13.1.6",
+    "next": "12.1.6",
     "next-redux-wrapper": "^7.0.5",
     "next-seo": "^5.5.0",
     "prettier": "^2.8.4",
